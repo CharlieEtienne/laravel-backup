@@ -38,7 +38,7 @@ class Backup
     /**
      * Get the size in bytes.
      */
-    public function size(): int
+    public function size(): float
     {
         if (! $this->exists()) {
             return 0;
